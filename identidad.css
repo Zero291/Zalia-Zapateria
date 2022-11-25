@@ -1,0 +1,13 @@
+.cuerpo{
+    text-align: center;
+}
+.contenido{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+    text-align: justify;
+}
+.logo1{
+    width: 350px;
+    height: auto;
+}

@@ -1,0 +1,57 @@
+:root {
+    /* Colors */
+    --very-light-pink: #C7C7C7;
+    --white: #FFFFFF;
+    --text-input-field: #F7F7F7;
+    --black: #000000;
+    --hospital-green: #f4ece0;
+    --dark: #232830;
+    --bond: #b4aca4;
+    --gray: #808080;
+    /* Fonts */
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    /* Size */
+    --card-size: 240px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* html {
+    font-size: 62.5%;
+} */
+body {
+    font-family:  'DM Serif Display', serif;
+    background-color: var(--bond);
+}
+.mobile-menu {
+    padding: 24px;
+    text-align: center;
+}
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    /* margin-bottom: 24px; */
+}
+.mobile-menu ul {
+    margin-top: 24px;
+    list-style: none;
+}
+.mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.mobile-menu ul li {
+    margin-bottom: 24px;
+}
+.mobile-menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+}
+.mobile-menu .sign-out {
+    font-size: var(--sm);
+    color: var(--hospital-green);
+}
