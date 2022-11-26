@@ -28,7 +28,7 @@ body {
     background-color: var(--bond);
 }
 .product-detail {
-    border-radius: 10px;
+    border-radius: 12px;
     border: var(--hospital-green) 2px solid;
     position: absolute;
     right: 0;
